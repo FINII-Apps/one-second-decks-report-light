@@ -106,52 +106,53 @@ def createSlide(ppt, slide_nr, slide_name, tab="Tabellendaten", columns="A:L"):
 
         if slide_name == "YT_OVER":
 
-            insertTextOnSlide(ppt, f"{format_number(views_average)}", 1, "Inhaltsplatzhalter 3")
-            insertTextOnSlide(ppt, f"{format_number(interactions_average)}", 1, "Inhaltsplatzhalter 2")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_average)}%", 1, "Inhaltsplatzhalter 1")
+            insertTextOnSlide(ppt, f"{format_number(views_average)}", 1, "Inhaltsplatzhalter 21")
+            insertTextOnSlide(ppt, f"{format_number(interactions_average)}", 1, "Inhaltsplatzhalter 20")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_average)}%", 1, "Inhaltsplatzhalter 19")
 
-            insertTextOnSlide(ppt, f"{views_top1['Date']}", 1, "Inhaltsplatzhalter 14")
-            insertTextOnSlide(ppt, f"{format_number(views_top1['Aufrufe'])}", 1, "Inhaltsplatzhalter 5")
-            insertTextOnSlide(ppt, f"{format_number(views_top1['Interactions'])}", 1, "Inhaltsplatzhalter 6")
-            insertTextOnSlide(ppt, f"{format_number(views_top1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 1, "Inhaltsplatzhalter 7")
-            insertTextOnSlide(ppt, f"{views_top1['Videos']}", 1, "Inhaltsplatzhalter 17")
+            insertTextOnSlide(ppt, f"{views_top1['Date']}", 1, "Inhaltsplatzhalter 7")
+            insertTextOnSlide(ppt, f"{format_number(views_top1['Aufrufe'])}", 1, "Inhaltsplatzhalter 4")
+            insertTextOnSlide(ppt, f"{format_number(views_top1['Interactions'])}", 1, "Inhaltsplatzhalter 5")
+            insertTextOnSlide(ppt, f"{format_number(views_top1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 1, "Inhaltsplatzhalter 6")
+            insertTextOnSlide(ppt, f"{views_top1['Videos']}", 1, "Inhaltsplatzhalter 8")
 
-            insertTextOnSlide(ppt, f"{interactions_top1['Date']}", 1, "Inhaltsplatzhalter 15")
-            insertTextOnSlide(ppt, f"{format_number(interactions_top1['Aufrufe'])}", 1, "Inhaltsplatzhalter 8")
-            insertTextOnSlide(ppt, f"{format_number(interactions_top1['Interactions'])}", 1, "Inhaltsplatzhalter 9")
-            insertTextOnSlide(ppt, f"{format_number(interactions_top1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 1, "Inhaltsplatzhalter 10")
-            insertTextOnSlide(ppt, f"{interactions_top1['Videos']}", 1, "Inhaltsplatzhalter 18")
+            insertTextOnSlide(ppt, f"{interactions_top1['Date']}", 1, "Inhaltsplatzhalter 12")
+            insertTextOnSlide(ppt, f"{format_number(interactions_top1['Aufrufe'])}", 1, "Inhaltsplatzhalter 9")
+            insertTextOnSlide(ppt, f"{format_number(interactions_top1['Interactions'])}", 1, "Inhaltsplatzhalter 10")
+            insertTextOnSlide(ppt, f"{format_number(interactions_top1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 1, "Inhaltsplatzhalter 11")
+            insertTextOnSlide(ppt, f"{interactions_top1['Videos']}", 1, "Inhaltsplatzhalter 13")
 
-            insertTextOnSlide(ppt, f"{aufrufe_top1['Date']}", 1, "Inhaltsplatzhalter 16")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_top1['Aufrufe'])}", 1, "Inhaltsplatzhalter 11")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_top1['Interactions'])}", 1, "Inhaltsplatzhalter 12")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_top1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 1, "Inhaltsplatzhalter 13")
-            insertTextOnSlide(ppt, f"{aufrufe_top1['Videos']}", 1, "Inhaltsplatzhalter 19")
+            insertTextOnSlide(ppt, f"{aufrufe_top1['Date']}", 1, "Inhaltsplatzhalter 17")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_top1['Aufrufe'])}", 1, "Inhaltsplatzhalter 14")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_top1['Interactions'])}", 1, "Inhaltsplatzhalter 15")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_top1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 1, "Inhaltsplatzhalter 16")
+            insertTextOnSlide(ppt, f"{aufrufe_top1['Videos']}", 1, "Inhaltsplatzhalter 18")
 
 
         elif slide_name == "YT_UNDER":
 
-            insertTextOnSlide(ppt, f"{format_number(views_average)}", 2, "Inhaltsplatzhalter 3")
-            insertTextOnSlide(ppt, f"{format_number(interactions_average)}", 2, "Inhaltsplatzhalter 2")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_average)}%", 2, "Inhaltsplatzhalter 1")
+            insertTextOnSlide(ppt, f"{format_number(views_average)}", 2, "Inhaltsplatzhalter 21")
+            insertTextOnSlide(ppt, f"{format_number(interactions_average)}", 2, "Inhaltsplatzhalter 20")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_average)}%", 2, "Inhaltsplatzhalter 19")
 
-            insertTextOnSlide(ppt, f"{views_flop1['Date']}", 2, "Inhaltsplatzhalter 14")
-            insertTextOnSlide(ppt, f"{format_number(views_flop1['Aufrufe'])}", 2, "Inhaltsplatzhalter 5")
-            insertTextOnSlide(ppt, f"{format_number(views_flop1['Interactions'])}", 2, "Inhaltsplatzhalter 6")
-            insertTextOnSlide(ppt, f"{format_number(views_flop1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 2, "Inhaltsplatzhalter 7")
-            insertTextOnSlide(ppt, f"{views_flop1['Videos']}", 2, "Inhaltsplatzhalter 17")
+            insertTextOnSlide(ppt, f"{views_flop1['Date']}", 2, "Inhaltsplatzhalter 7")
+            insertTextOnSlide(ppt, f"{format_number(views_flop1['Aufrufe'])}", 2, "Inhaltsplatzhalter 4")
+            insertTextOnSlide(ppt, f"{format_number(views_flop1['Interactions'])}", 2, "Inhaltsplatzhalter 5")
+            insertTextOnSlide(ppt, f"{format_number(views_flop1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 2, "Inhaltsplatzhalter 6")
+            insertTextOnSlide(ppt, f"{views_flop1['Videos']}", 2, "Inhaltsplatzhalter 8")
 
-            insertTextOnSlide(ppt, f"{interactions_flop1['Date']}", 2, "Inhaltsplatzhalter 15")
-            insertTextOnSlide(ppt, f"{format_number(interactions_flop1['Aufrufe'])}", 2, "Inhaltsplatzhalter 8")
-            insertTextOnSlide(ppt, f"{format_number(interactions_flop1['Interactions'])}", 2, "Inhaltsplatzhalter 9")
-            insertTextOnSlide(ppt, f"{format_number(interactions_flop1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 2, "Inhaltsplatzhalter 10")
-            insertTextOnSlide(ppt, f"{interactions_flop1['Videos']}", 2, "Inhaltsplatzhalter 18")
+            insertTextOnSlide(ppt, f"{interactions_flop1['Date']}", 2, "Inhaltsplatzhalter 12")
+            insertTextOnSlide(ppt, f"{format_number(interactions_flop1['Aufrufe'])}", 2, "Inhaltsplatzhalter 9")
+            insertTextOnSlide(ppt, f"{format_number(interactions_flop1['Interactions'])}", 2, "Inhaltsplatzhalter 10")
+            insertTextOnSlide(ppt, f"{format_number(interactions_flop1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 2, "Inhaltsplatzhalter 11")
+            insertTextOnSlide(ppt, f"{interactions_flop1['Videos']}", 2, "Inhaltsplatzhalter 13")
 
-            insertTextOnSlide(ppt, f"{aufrufe_flop1['Date']}", 2, "Inhaltsplatzhalter 16")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_flop1['Aufrufe'])}", 2, "Inhaltsplatzhalter 11")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_flop1['Interactions'])}", 2, "Inhaltsplatzhalter 12")
-            insertTextOnSlide(ppt, f"{format_number(aufrufe_flop1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 2, "Inhaltsplatzhalter 13")
-            insertTextOnSlide(ppt, f"{aufrufe_flop1['Videos']}", 2, "Inhaltsplatzhalter 19")
+            insertTextOnSlide(ppt, f"{aufrufe_flop1['Date']}", 2, "Inhaltsplatzhalter 17")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_flop1['Aufrufe'])}", 2, "Inhaltsplatzhalter 14")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_flop1['Interactions'])}", 2, "Inhaltsplatzhalter 15")
+            insertTextOnSlide(ppt, f"{format_number(aufrufe_flop1['Durchschnittliche Wiedergabedauer in Prozent (%)'])}%", 2, "Inhaltsplatzhalter 16")
+            insertTextOnSlide(ppt, f"{aufrufe_flop1['Videos']}", 2, "Inhaltsplatzhalter 18")
+
 
         else:
 
