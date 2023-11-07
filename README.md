@@ -2,7 +2,7 @@
   <img src="https://www.finii-apps.de/img/finii_logo.png" width="150" alt="Nerd Fonts Logo" />
 </h1>
 
-# Workshop Agenda Light – 1 Second Decks for Everyone
+# Report Light – 1 Second Decks for Everyone
 
 **Voraussetzungen**
 - Die App ermöglicht eine automatisierte One-Click Erstellung einer Präsentation und entlastet somit deine Mitarbeiter 
